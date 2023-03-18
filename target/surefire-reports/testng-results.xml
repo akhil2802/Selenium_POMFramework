@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-11T00:05:16 IST" name="Suite" finished-at="2023-03-11T00:06:04 IST" duration-ms="48848">
+    <groups>
+    </groups>
+    <test started-at="2023-03-11T00:05:16 IST" name="Test" finished-at="2023-03-11T00:06:04 IST" duration-ms="48848">
+      <class name="com.demopom_framework.logintest.ForgotAccountTest">
+        <test-method signature="testForgotAccountPage(java.lang.Object)[pri:0, instance:com.demopom_framework.logintest.ForgotAccountTest@1dde4cb2]" started-at="2023-03-11T00:05:45 IST" name="testForgotAccountPage" data-provider="testData" finished-at="2023-03-11T00:05:53 IST" duration-ms="8414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selauto@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotAccountPage -->
+        <test-method signature="testForgotAccountPage(java.lang.Object)[pri:0, instance:com.demopom_framework.logintest.ForgotAccountTest@1dde4cb2]" started-at="2023-03-11T00:05:53 IST" name="testForgotAccountPage" data-provider="testData" finished-at="2023-03-11T00:06:04 IST" duration-ms="10917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akhil@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotAccountPage -->
+      </class> <!-- com.demopom_framework.logintest.ForgotAccountTest -->
+      <class name="com.demopom_framework.logintest.LoginTest">
+        <test-method signature="testLoginPage(java.lang.Object,java.lang.Object)[pri:0, instance:com.demopom_framework.logintest.LoginTest@243c4f91]" started-at="2023-03-11T00:05:17 IST" name="testLoginPage" data-provider="testData" finished-at="2023-03-11T00:05:31 IST" duration-ms="14211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selauto@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method signature="testLoginPage(java.lang.Object,java.lang.Object)[pri:0, instance:com.demopom_framework.logintest.LoginTest@243c4f91]" started-at="2023-03-11T00:05:31 IST" name="testLoginPage" data-provider="testData" finished-at="2023-03-11T00:05:45 IST" duration-ms="13846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akhil@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+      </class> <!-- com.demopom_framework.logintest.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
